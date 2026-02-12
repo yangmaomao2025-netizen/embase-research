@@ -1,0 +1,59 @@
+{
+  "id": "embase-research",
+  "name": "Embase Research Assistant",
+  "version": "1.0.0",
+  "description": "Search biomedical literature from Embase with superior drug, pharmacology, and European research coverage",
+  "entryPoint": "index.ts",
+  "permissions": ["web"],
+  "keywords": [
+    "embase",
+    "biomedical",
+    "pharmacology",
+    "drug-safety",
+    "european-journals",
+    "medical-research",
+    "pharmacovigilance",
+    "elsevier"
+  ],
+  "author": "OpenClaw Community",
+  "license": "MIT",
+  "homepage": "https://github.com/openclaw/skills/tree/main/skills/embase-research",
+  "bugs": "https://github.com/openclaw/skills/issues",
+  "engines": {
+    "openclaw": ">=2026.0.0"
+  },
+  "clawdbot": {
+    "emoji": "💊",
+    "requires": {
+      "bins": [],
+      "env": [],
+      "os": ["linux", "darwin", "win32"],
+      "apiKeys": []
+    },
+    "install": []
+  },
+  "categories": [
+    "research",
+    "medical",
+    "pharmaceutical",
+    "healthcare"
+  ],
+  "examples": [
+    {
+      "description": "Search for biomedical articles",
+      "command": "Search Embase for: COVID-19 treatment"
+    },
+    {
+      "description": "Drug safety search",
+      "command": "Search drug safety: adverse reactions of aspirin"
+    },
+    {
+      "description": "Conference proceedings",
+      "command": "Search conference proceedings on cardiology 2024"
+    },
+    {
+      "description": "Systematic review search",
+      "command": "Systematic review search: diabetes treatment effectiveness"
+    }
+  ]
+}
