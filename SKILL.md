@@ -1,3 +1,8 @@
+---
+name: embase-research
+description: Embase 生物医学文献数据库检索工具。用于搜索欧洲领先的生物医学文献数据库，覆盖药学、临床试验、药物警戒等内容，支持药物安全监测和药理学研究。当用户需要搜索药物相关文献或药理学研究时使用。
+---
+
 # Embase Research Skill
 
 Search comprehensive biomedical literature from Embase - the leading European database with extensive pharmaceutical and clinical trial coverage.
